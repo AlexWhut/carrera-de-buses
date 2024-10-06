@@ -11,12 +11,12 @@ def buses(n1, n2):
     output.append(115 * "-")
     output.append((n1 * " ") + "_______________  " + ((100 - n1) * " ") + "|")
     output.append((n1 * " ") + "|__|__|__|__|__|___ " + ((97  - n1) * " ") + "|")
-    output.append((n1 * " ") + "|    LAURA     |)" + ((96  - n1) * " ") + "|")
+    output.append((n1 * " ") + "|    COCA-COLA    |)" + ((96  - n1) * " ") + "|")
     output.append((n1 * " ") + "|~~~@~~~~~~~~~@~~~|)" + ((95  - n1) * " ") + "|")
     output.append(115 * "_")
     output.append((n2 * " ") + "_______________  " + ((100 - n2) * " ") + "|")
     output.append((n2 * " ") + "|__|__|__|__|__|___ " + ((97  - n2) * " ") + "|")
-    output.append((n2 * " ") + "|    IRENE     |)" + ((96  - n2) * " ") + "|")
+    output.append((n2 * " ") + "|      AGUA       |)" + ((96  - n2) * " ") + "|")
     output.append((n2 * " ") + "|~~~@~~~~~~~~~@~~~|)" + ((95  - n2) * " ") + "|")
     output.append(115 * "_")
     return "\n".join(output)
@@ -28,7 +28,7 @@ gano = None  # Inicializa 'gano' aquí
 os.system("cls" if os.name == "nt" else "clear")
 presentacion = """
         <<<<<<<<<<< carrera de buses >>>>>>>>>>
-            LAU vs IRE """
+            COCA-COLA vs AGUA """
 print(presentacion)
 time.sleep(3)
 
@@ -43,8 +43,8 @@ while a < 97 and b < 97:
     time.sleep(0.07)
 
 if a >= 97:
-    gano = "LAU"
+    gano = "COCA-COLA"
 if b >= 97:
-    gano = "IRE"
+    gano = "AGUA"
 
-print(f"{GREN}GANÓ LA CARRERA: {gano}{END}")
+print(f"{GREN} GANÓ LA CARRERA: {gano}{END}")
